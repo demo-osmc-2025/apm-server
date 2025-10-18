@@ -2,8 +2,8 @@ name: update-beats
 
 on:
   workflow_dispatch:
-#  schedule:
-#    - cron: '0 15 * * 1-5'
+  schedule:
+    - cron: '0 15 * * 1-5'
 
 permissions:
   contents: read

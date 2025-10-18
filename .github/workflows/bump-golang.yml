@@ -3,8 +3,8 @@ name: bump-golang
 
 on:
   workflow_dispatch:
-#  schedule:
-#    - cron: '0 20 * * 6'
+  schedule:
+    - cron: '0 20 * * 6'
 
 permissions:
   contents: read

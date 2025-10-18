@@ -2,8 +2,8 @@ name: check-docker-compose
 
 on:
   workflow_dispatch:
-#  schedule:
-#    - cron: '0 15 * * 5'
+  schedule:
+    - cron: '0 15 * * 5'
 
 # limit the access of the generated GITHUB_TOKEN
 permissions:

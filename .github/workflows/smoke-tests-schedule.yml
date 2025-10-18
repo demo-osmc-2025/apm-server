@@ -3,8 +3,8 @@ run-name: Smoke Tests
 
 on:
   workflow_dispatch: ~
-#  schedule:
-#    - cron: '0 3 * * 1-5'
+  schedule:
+    - cron: '0 3 * * 1-5'
 
 # Limit the access of the generated GITHUB_TOKEN
 permissions:

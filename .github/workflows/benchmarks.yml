@@ -25,9 +25,9 @@ on:
         description: 'Set the expression that matches the benchmark scenarios to run'
         required: false
         type: string
-#  schedule:
-#    - cron: '0 17 * * *' # Scheduled regular benchmarks.
-#    - cron: '0 5 */5 * *' # Scheduled PGO benchmarks.
+  schedule:
+    - cron: '0 17 * * *' # Scheduled regular benchmarks.
+    - cron: '0 5 */5 * *' # Scheduled PGO benchmarks.
 
 env:
   PNG_REPORT_FILE: out.png

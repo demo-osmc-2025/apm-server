@@ -18,8 +18,8 @@ on:
       - '**.png'
       - '**.svg'
   merge_group:
-#  schedule:
-#    - cron: '0 */2 * * 1-5'
+  schedule:
+    - cron: '0 */2 * * 1-5'
 
 # limit the access of the generated GITHUB_TOKEN
 permissions:
